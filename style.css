@@ -863,7 +863,7 @@
         {
             content: "";
             background-image: url(wave-haikei.svg);
-            background-size: auto;
+            background-size: 100%;
             width: 100%;
             height: 450px;
             position: absolute;
