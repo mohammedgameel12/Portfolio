@@ -501,6 +501,7 @@
             border-radius: 50px;
             z-index: 199;
             transition: 0.2s;
+            cursor: pointer;
         }
         .top-but:hover
         {
@@ -863,7 +864,7 @@
         {
             content: "";
             background-image: url(wave-haikei.svg);
-            background-size: 100%;
+            background-size: auto;
             width: 100%;
             height: 450px;
             position: absolute;
