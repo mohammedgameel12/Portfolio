@@ -1,116 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script src="main.js"></script>
-<script src="https://use.fontawesome.com/2c18b2c423.js"></script>
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
-<script src="jquery-3.5.1.min.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="main.js"></script>
+    <script src="https://use.fontawesome.com/2c18b2c423.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <script src="jquery-3.5.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Mohammed Gameel</title>
-</head>
-<body onscroll="scr();">
+  </head>
+  <body onscroll="scr();">
     <div class="overlayy">
-        <div class="menu-res">
-            <a href="#" class="menu-link-res fa-house">Home</a>
-            <a href="#services" class="menu-link-res">Services</a>
-            <a href="#contact" class="menu-link-res">Contact</a>
-            <a href="#skills" class="menu-link-res">Skills</a>
-            <!-- <a href="#offers" class="menu-link-res">My offers</a> -->
-            <a href="#projects" class="menu-link-res">Portfolio</a>
-        </div>
+      <div class="menu-res">
+        <a href="#" class="menu-link-res fa-house">Home</a>
+        <a href="#services" class="menu-link-res">Services</a>
+        <a href="#contact" class="menu-link-res">Contact</a>
+        <a href="#skills" class="menu-link-res">Skills</a>
+        <!-- <a href="#offers" class="menu-link-res">My offers</a> -->
+        <a href="#projects" class="menu-link-res">Portfolio</a>
+      </div>
     </div>
-    <a href="#" class="top-but"><img src="top.png"></a>
+    <a href="#" class="top-but"><img src="top.png" /></a>
     <header>
-        <div class="logo-bar">
-            <img src="logo.png" alt="logo here" class="logo">
-        </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="#" class="menu-link">Home</a></li>
-                <li><a href="#services" class="menu-link">Services</a></li>
-                <li><a href="#contact" class="menu-link">Contact</a></li>
-                <li><a href="#skills" class="menu-link">Skills</a></li>
-                <!-- <li><a href="#offers" class="menu-link">My offers</a></li> -->
-                <li><a href="#projects" class="menu-but">Portfolio</a></li>
-            </ul>
-            <button class="open-menu" onclick="openMenu();">
-                <span class="iconn">
-                    <span id="bar1"></span>
-                    <span id="bar2"></span>
-                    <span id="bar3"></span>
-                </span>
-            </button>
-        </nav>
+      <div class="logo-bar">
+        <img src="logo.png" alt="logo here" class="logo" />
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#" class="menu-link">Home</a></li>
+          <li><a href="#services" class="menu-link">Services</a></li>
+          <li><a href="#contact" class="menu-link">Contact</a></li>
+          <li><a href="#skills" class="menu-link">Skills</a></li>
+          <!-- <li><a href="#offers" class="menu-link">My offers</a></li> -->
+          <li><a href="#projects" class="menu-but">Portfolio</a></li>
+        </ul>
+        <button class="open-menu" onclick="openMenu();">
+          <span class="iconn">
+            <span id="bar1"></span>
+            <span id="bar2"></span>
+            <span id="bar3"></span>
+          </span>
+        </button>
+      </nav>
     </header>
     <div class="container">
-        <img src="go.gif" alt="go.png" class="go-img">
-        <div class="overlay">
-            <div class="wel l">
-                <h1 class="main-head bold">Get your website built now with me <span class="color bold">Mohammed Gameel</span>.</h1>
-                <p class="art">Hello there, my name is Mohammed Gameel I am a student in
-                    Faculty of Electronic Engineering, and
-                    I am front-end developer, 
-                    and I have the experience to build your website, let's improve your business now !
-                </p>
-                <div class="button-mar">
-                    <a href="http://mohammed-gameel.epizy.com/Mywebsite/My_resume.pdf" download="Mohammed_Gameel_Resume" target="_blank" class="button">Download Resume</a>
-                </div>
-            </div>
+      <img src="go.gif" alt="go.png" class="go-img" />
+      <div class="overlay">
+        <div class="wel l">
+          <h1 class="main-head bold">
+            Get your website built now with me
+            <span class="color bold">Mohammed Gameel</span>.
+          </h1>
+          <p class="art">
+            Hello there, my name is Mohammed Gameel I am a student in Faculty of
+            Electronic Engineering, and I am front-end developer, and I have the
+            experience to build your website, let's improve your business now !
+          </p>
+          <div class="button-mar">
+            <a
+              href="/My_resume.pdf"
+              download="Mohammed_Gameel_Resume"
+              target="_blank"
+              class="button"
+              >Download Resume</a
+            >
+          </div>
         </div>
+      </div>
     </div>
-    <img src="line.png" style="width: 100%;">
+    <img src="line.png" style="width: 100%" />
     <div class="services" id="services">
-        <div class="marg"><span class="main--head">Services</span></div>
-        <div class="real-serv">
-            <div class="card">
-                <img src="build.png" class="card-img">
-                <h2 class="card-head">website build</h2>
-            </div>
-            <div class="card">
-                <img src="design.png" class="card-img">
-                <h2 class="card-head">website design</h2>
-            </div>
-            <div class="card">
-                <img src="edit.png" class="card-img">
-                <h2 class="card-head">Editing websites</h2>
-            </div>
-            <div class="card">
-                <img src="publish.png" class="card-img">
-                <h2 class="card-head">Publish websites</h2>
-            </div>
-            <div class="card">
-                <img src="logo2.png" class="card-img">
-                <h2 class="card-head">Logo design</h2>
-            </div>
+      <div class="marg"><span class="main--head">Services</span></div>
+      <div class="real-serv">
+        <div class="card">
+          <img src="build.png" class="card-img" />
+          <h2 class="card-head">website build</h2>
         </div>
+        <div class="card">
+          <img src="design.png" class="card-img" />
+          <h2 class="card-head">website design</h2>
+        </div>
+        <div class="card">
+          <img src="edit.png" class="card-img" />
+          <h2 class="card-head">Editing websites</h2>
+        </div>
+        <div class="card">
+          <img src="publish.png" class="card-img" />
+          <h2 class="card-head">Publish websites</h2>
+        </div>
+        <div class="card">
+          <img src="logo2.png" class="card-img" />
+          <h2 class="card-head">Logo design</h2>
+        </div>
+      </div>
     </div>
     <!-- <div class="services" id="offers">
         <div class="marg"><span class="main--head">My offers</span></div>
@@ -160,103 +199,146 @@
         </div>
     </div> -->
     <div class="services" id="skills">
-        <div class="marg"><span class="main--head">My skills</span></div>
-        <div class="skills">
-            <h2 class="skill-head">HTML</h2>
-            <div class="skill-bar">
-                <div class="html"><span class="per">100%</span></div>
-            </div>
-            <h2 class="skill-head">CSS</h2>
-            <div class="skill-bar">
-                <div class="css"><span class="per">95%</span></div>
-            </div>
-            <h2 class="skill-head">Javascript</h2>
-            <div class="skill-bar">
-                <div class="js"><span class="per">75%</span></div>
-            </div>
-            <h2 class="skill-head">PHP</h2>
-            <div class="skill-bar">
-                <div class="php"><span class="per">60%</span></div>
-            </div>
-            <h2 class="skill-head">Bootstrap</h2>
-            <div class="skill-bar">
-                <div class="wp"><span class="per">80%</span></div>
-            </div>
+      <div class="marg"><span class="main--head">My skills</span></div>
+      <div class="skills">
+        <h2 class="skill-head">HTML</h2>
+        <div class="skill-bar">
+          <div class="html"><span class="per">100%</span></div>
         </div>
+        <h2 class="skill-head">CSS</h2>
+        <div class="skill-bar">
+          <div class="css"><span class="per">95%</span></div>
+        </div>
+        <h2 class="skill-head">Javascript</h2>
+        <div class="skill-bar">
+          <div class="js"><span class="per">75%</span></div>
+        </div>
+        <h2 class="skill-head">PHP</h2>
+        <div class="skill-bar">
+          <div class="php"><span class="per">60%</span></div>
+        </div>
+        <h2 class="skill-head">Bootstrap</h2>
+        <div class="skill-bar">
+          <div class="wp"><span class="per">80%</span></div>
+        </div>
+      </div>
     </div>
     <div class="services" id="projects">
-        <div class="marg"><span class="main--head">Portfolio</span></div>
-        <div class="projects-container">
-            <div class="project img12">
-                <div class="caption">Leon Template</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/LeonTemplate1/" class="demo">Demo</a>
-            </div>
-            <div class="project img13">
-                <div class="caption">Kasper Template</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/KasperTemplate2/" class="demo">Demo</a>
-            </div>
-            <div class="project img14">
-                <div class="caption">Elzero Template</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/Template3/" class="demo">Demo</a>
-            </div>
-            <div class="project img15">
-                <div class="caption">Winlink</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/winlink/en/winlink.php" class="demo">Demo</a>
-            </div>
-            <div class="project img16">
-                <div class="caption">My prev website</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/mysite/" class="demo">Demo</a>
-            </div>
-            <div class="project img17">
-                <div class="caption">Weather App</div>
-                <a target="_blank" href="http://demo-website-g.epizy.com/WeatherApp/" class="demo">Demo</a>
-            </div>
-            <div class="project img1">
-                <div class="caption">Arabic website</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/Mywebsite/arabic%20website.png" class="demo">Demo</a>
-            </div>
-            <div class="project img2">
-                <div class="caption">Business website</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/Mywebsite/business%20website.png" class="demo">Demo</a>
-            </div>
-            <div class="project img3">
-                <div class="caption">Hotel website</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/Mywebsite/hotel%20website.png" class="demo">Demo</a>
-            </div>
-            <div class="project img4">
-                <div class="caption">Pet website</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/Mywebsite/Pet%20website.png" class="demo">Demo</a>
-            </div>
-            <div class="project img5">
-                <div class="caption">Online store</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/Mywebsite/Store.png" class="demo">Demo</a>
-            </div>
-            <div class="project img6">
-                <div class="caption">Online store</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/Mywebsite/Store%20website.png" class="demo">Demo</a>
-            </div>
-            <div class="project img7">
-                <div class="caption">Educational website</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/Mywebsite/educational%20website.png" class="demo">Demo</a>
-            </div>
-            <div class="project img8">
-                <div class="caption">Gmail design</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/Mywebsite/Gmail%20design.png" class="demo">Demo</a>
-            </div>
-            <div class="project img9">
-                <div class="caption">Landing page</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/Mywebsite/landing%20page%20sample.png" class="demo">Demo</a>
-            </div>
-            <div class="project img10">
-                <div class="caption">Landing page</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/Mywebsite/landing%20page.png" class="demo">Demo</a>
-            </div>
-            <div class="project img11">
-                <div class="caption">Responsive design</div>
-                <a target="_blank" href="http://mohammed-gameel.epizy.com/Mywebsite/Responsive%20design%20sample.png" class="demo">Demo</a>
-            </div>
+      <div class="marg"><span class="main--head">Portfolio</span></div>
+      <div class="projects-container">
+        <div class="project img12">
+          <div class="caption">Leon Template</div>
+          <a
+            target="_blank"
+            href="https://mohammedgameel12.github.io/LionTemplate/"
+            class="demo"
+            >Demo</a
+          >
         </div>
-        <div class="marg" id="button-sec"><a class="button-sec" onclick="proShow();">Load more</a></div>
+        <div class="project img13">
+          <div class="caption">Kasper Template</div>
+          <a
+            target="_blank"
+            href="https://mohammedgameel12.github.io/kasper_template/"
+            class="demo"
+            >Demo</a
+          >
+        </div>
+        <div class="project img14">
+          <div class="caption">Elzero Template</div>
+          <a
+            target="_blank"
+            href="https://mohammedgameel12.github.io/website_template/"
+            class="demo"
+            >Demo</a
+          >
+        </div>
+        <div class="project img15">
+          <div class="caption">Winlink</div>
+          <a
+            target="_blank"
+            href="http://mohammed-gameel.epizy.com/winlink/en/winlink.php"
+            class="demo"
+            >Demo</a
+          >
+        </div>
+        <div class="project img16">
+          <div class="caption">My prev website</div>
+          <a
+            target="_blank"
+            href="http://mohammed-gameel.epizy.com/mysite/"
+            class="demo"
+            >Demo</a
+          >
+        </div>
+        <div class="project img17">
+          <div class="caption">Weather App</div>
+          <a
+            target="_blank"
+            href="https://mohammedgameel12.github.io/weather_app/"
+            class="demo"
+            >Demo</a
+          >
+        </div>
+        <div class="project img1">
+          <div class="caption">Arabic website</div>
+          <a target="_blank" href="/arabic%20website.png" class="demo">Demo</a>
+        </div>
+        <div class="project img2">
+          <div class="caption">Business website</div>
+          <a target="_blank" href="/business%20website.png" class="demo"
+            >Demo</a
+          >
+        </div>
+        <div class="project img3">
+          <div class="caption">Hotel website</div>
+          <a target="_blank" href="/hotel%20website.png" class="demo">Demo</a>
+        </div>
+        <div class="project img4">
+          <div class="caption">Pet website</div>
+          <a target="_blank" href="/Pet%20website.png" class="demo">Demo</a>
+        </div>
+        <div class="project img5">
+          <div class="caption">Online store</div>
+          <a target="_blank" href="/Store.png" class="demo">Demo</a>
+        </div>
+        <div class="project img6">
+          <div class="caption">Online store</div>
+          <a target="_blank" href="/Store%20website.png" class="demo">Demo</a>
+        </div>
+        <div class="project img7">
+          <div class="caption">Educational website</div>
+          <a target="_blank" href="/educational%20website.png" class="demo"
+            >Demo</a
+          >
+        </div>
+        <div class="project img8">
+          <div class="caption">Gmail design</div>
+          <a target="_blank" href="/Gmail%20design.png" class="demo">Demo</a>
+        </div>
+        <div class="project img9">
+          <div class="caption">Landing page</div>
+          <a target="_blank" href="/landing%20page%20sample.png" class="demo"
+            >Demo</a
+          >
+        </div>
+        <div class="project img10">
+          <div class="caption">Landing page</div>
+          <a target="_blank" href="/landing%20page.png" class="demo">Demo</a>
+        </div>
+        <div class="project img11">
+          <div class="caption">Responsive design</div>
+          <a
+            target="_blank"
+            href="/Responsive%20design%20sample.png"
+            class="demo"
+            >Demo</a
+          >
+        </div>
+      </div>
+      <div class="marg" id="button-sec">
+        <a class="button-sec" onclick="proShow();">Load more</a>
+      </div>
     </div>
     <!-- <div class="about" id="about">
         <h1 class="about-head">What we do ?</h1>
@@ -267,43 +349,67 @@
         </div>
     </div> -->
     <div class="contact" id="contact">
-        <h1 class="sec-head">Contact <span class="main-color">me now</span></h1>
-        <div class="contact-info">
-            <div class="emaill">
-                E-mail : <a class="mail-link" href="mailto:mgameel24680@gmail.com">mgameel24680@gmail.com</a>
-            </div>
-            <div class="calll">
-                Phone number : <a class="call-link" href="tel:+201553757338">+201553757338</a>
-            </div>
-            <div class="social">
-                <a class="icon facebook fa fa-facebook" href="https://www.facebook.com/mohammed.gameel.7731/" target="_blank"></a>
-                <a class="icon instagram fa fa-instagram" href="https://www.instagram.com/mgameel24680/" target="_blank"></a>
-                <a class="icon whatsapp fa fa-whatsapp" href="https://wa.me/201558591539?text=Hi,%20I%20saw%20your%20website%20and%20want%20to%20know%20more%20information%20about%20your%20services." target="_blank"></a>
-            </div>
+      <h1 class="sec-head">Contact <span class="main-color">me now</span></h1>
+      <div class="contact-info">
+        <div class="emaill">
+          E-mail :
+          <a class="mail-link" href="mailto:mgameel24680@gmail.com"
+            >mgameel24680@gmail.com</a
+          >
         </div>
+        <div class="calll">
+          Phone number :
+          <a class="call-link" href="tel:+201553757338">+201553757338</a>
+        </div>
+        <div class="social">
+          <a
+            class="icon facebook fa fa-facebook"
+            href="https://www.facebook.com/mohammed.gameel.7731/"
+            target="_blank"
+          ></a>
+          <a
+            class="icon instagram fa fa-instagram"
+            href="https://www.instagram.com/mgameel24680/"
+            target="_blank"
+          ></a>
+          <a
+            class="icon whatsapp fa fa-whatsapp"
+            href="https://wa.me/201558591539?text=Hi,%20I%20saw%20your%20website%20and%20want%20to%20know%20more%20information%20about%20your%20services."
+            target="_blank"
+          ></a>
+        </div>
+      </div>
     </div>
     <div class="till-end">
-        <div class="widj lj">
-            <img src="logo.png" alt="logo here" class="end-logo">
-        </div>
-        <div class="widj">
-            <h2 class="end-head">Links</h2>
-            <hr class="footer-line">
-            <a href="#contact" class="end-link">Contact</a>
-            <!-- <a href="#offers" class="end-link">Offers</a> -->
-            <a href="#services" class="end-link">Services</a>
-            <a href="#projects" class="end-link">Portfolio</a>
-        </div>
-        <div class="widj">
-            <h2 class="end-head">Contact</h2>
-            <hr class="footer-line">
-            <a href="tel:+201553757338" class="end-link">+201553757338</a>
-            <a href="mailto:mgameel24680@gmail.com" class="end-link">mgameel24680@gmail.com</a>
-        </div>
+      <div class="widj lj">
+        <img src="logo.png" alt="logo here" class="end-logo" />
+      </div>
+      <div class="widj">
+        <h2 class="end-head">Links</h2>
+        <hr class="footer-line" />
+        <a href="#contact" class="end-link">Contact</a>
+        <!-- <a href="#offers" class="end-link">Offers</a> -->
+        <a href="#services" class="end-link">Services</a>
+        <a href="#projects" class="end-link">Portfolio</a>
+      </div>
+      <div class="widj">
+        <h2 class="end-head">Contact</h2>
+        <hr class="footer-line" />
+        <a href="tel:+201553757338" class="end-link">+201553757338</a>
+        <a href="mailto:mgameel24680@gmail.com" class="end-link"
+          >mgameel24680@gmail.com</a
+        >
+      </div>
     </div>
     <footer class="end">Copyright 2022 &copy; All Right Reserved</footer>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script src="main.js"></script>
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="main.js"></script>
+  </body>
 </html>
